@@ -1,0 +1,16 @@
+rating 
+kind of visit eg family
+food rating
+transportaion rating
+traffic 
+mode of transport
+recommended length
+
+
+input type="radio" value="Others"
+
+create table ratin (rate INT,1count INT);
+
+10 html pages
+
+1.chennai hot places

@@ -1,0 +1,14 @@
+function show_poll(){
+	$.ajax({
+		type: "POST", 
+		url: "show-poll.php", 
+		processData : false,
+		beforeSend: function() {
+			$("#overlay").show();
+		},
+		success: function(responseHTML){
+			$("#overlay").hide();
+			$("#poll-content").html(responseHTML);
+		}
+	});
+}
